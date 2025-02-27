@@ -1,6 +1,6 @@
 from pathlib import Path
 
-root_dir = Path('dados')
+root_dir = Path('files\dados')
 file_paths = root_dir.iterdir()
 
 for path in file_paths:
